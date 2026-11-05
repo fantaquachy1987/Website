@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Forms</title></head>
+<body>
+<!-- Registers the "enquiry" form with Netlify Forms. The Contact page submits these exact field names via AJAX. -->
+<form name="enquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="enquiry">
+  <input type="hidden" name="subject">
+  <input name="bot-field">
+  <input type="text" name="name">
+  <input type="text" name="business">
+  <input type="email" name="email">
+  <input type="tel" name="mobile">
+  <input type="text" name="businessType">
+  <input type="text" name="service">
+  <textarea name="description"></textarea>
+  <input type="text" name="ref">
+  <input type="checkbox" name="consent" value="yes">
+</form>
+</body></html>
